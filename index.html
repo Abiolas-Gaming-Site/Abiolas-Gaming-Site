@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>4-Day Timer</title>
+    <div id="timer"></div> <script> Set the end time for the 4-day timer const endTime = new Date().getTime() + 4 * 24 * 60 * 60 * 1000; Update the timer every second setInterval(() => { const now = new Date().getTime(); const distance = endTime - now; Calculate days, hours, minutes, and seconds const days = Math.floor(distance / (1000 * 60 * 60 * 24)); const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)); const seconds = Math.floor((distance % (1000 * 60)) / 1000); Display the timer in the 'timer' div document.getElementById('timer').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`; }, 1000); </script>
+  </head>
+  <body class="H-B">
+    <h1 class="Home-Header">Welcome to Abiola's Gaming Site</h1>
+    <a href"index.html">Home</a>
+    <a href"featured.html">Featured</a>
+    <a href"new.html">New(coming soon!!)</a>
+      <h1>Live Timer Example</h1> <p id="timer"></p>
+    
+  </body>
+</html>

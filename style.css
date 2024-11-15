@@ -1,0 +1,30 @@
+.Home-Header {
+  text-align: center;
+  color: white;
+}
+
+.H-B {
+  background-color: #28282B;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover{
+  text-decoration-style: wavy;5
+  color: orangered;
+  font-size: 25px;
+  background-color: red;
+}
+
+#timer { font-size: 24px; text-align: center; }
