@@ -19,6 +19,9 @@ hr {
 }
 
 h2 {
+  position:absolute;
+  width: 100%;
+  left: 0px;
   text-align: center;
   color: #E0E0E0;
 }
