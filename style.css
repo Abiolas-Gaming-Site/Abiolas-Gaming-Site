@@ -21,7 +21,8 @@ hr {
 h2 {
   position:absolute;
   width: 100%;
-  left: 0px;
+  top: 50%;
+  left: 50%
   text-align: center;
   color: #E0E0E0;
 }
